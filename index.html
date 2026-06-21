@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">World Clock</h1>
+    </header>
+    <main>
+        <div class="clock-container">
+            <div class="zone-selector">
+                <label for="zone">Select Time Zone:</label>
+                <select id="zone" placeholder="Select Time Zone">
+                    <option value="America/New_York">New York (EST)</option>
+                    <option value="America/Los_Angeles">Los Angeles (PST)</option>
+                    <option value="America/Chicago">Chicago (CST)</option>
+                    <option value="America/Denver">Denver (MST)</option>
+                    <option value="S.America/Argentina">Buenos Aires (ART)</option>
+                    <option value="S.America/Chile">Santiago (CLT)</option>
+                    <option value="S.America/Peru">Lima (PET)</option>
+                    <option value="S.America/Bolivia">La Paz (BOT)</option>
+                    <option value="S.America/Uruguay">Montevideo (UYT)</option>
+                    <option value="S.America/Brazil">São Paulo (BRT)</option>
+                    <option value="Africa/Nigeria">Lagos (WAT)</option>
+                    <option value="Africa/Egypt">Cairo (EET)</option>
+                    <option value="Europe/Paris">Paris (CET)</option>
+                    <option value="Europe/London">London (GMT)</option>
+                    <option value="Europe/Russia">Moscow (MSK)</option>
+                    <option value="Asia/India">New Delhi (IST)</option>
+                    <option value="Asia/Hong_Kong">Hong Kong (HKT)</option>
+                    <option value="Asia/Tokyo">Tokyo (JST)</option>
+                    <option value="Asia/S.Korea">Seoul (KST)</option>
+                    <option value="Asia/China">Shanghai (CST)</option>
+                    <option value="Asia/Thailand">Bangkok (ICT)</option>
+                    <option value="Australia/Sydney">Sydney (AEST)</option>
+                </select>
+            </div>
+            <div class="clock">
+                <div id="clock-EST">00:00:00</div>
+                <div id="clock-PST">00:00:00</div>
+                <div id="clock-CST">00:00:00</div>
+                <div id="clock-MST">00:00:00</div>
+                <div id="clock-ART">00:00:00</div>
+                <div id="clock-CLT">00:00:00</div>
+                <div id="clock-PET">00:00:00</div>
+                <div id="clock-BOT">00:00:00</div>
+                <div id="clock-UYT">00:00:00</div>
+                <div id="clock-BRT">12:34:56</div>
+                <div id="clock-WAT">00:00:00</div>
+                <div id="clock-EET">00:00:00</div>
+                <div id="clock-CET">00:00:00</div>
+                <div id="clock-GMT">00:00:00</div>
+                <div id="clock-MSK">00:00:00</div>
+                <div id="clock-IST">00:00:00</div>
+                <div id="clock-HKT">12:34:56</div>
+                <div id="clock-JST">12:34:56</div>
+                <div id="clock-KST">12:34:56</div>
+                <div id="clock-CST-CHINA">12:34:56</div>
+                <div id="clock-ICT">12:34:56</div>
+                <div id="clock-AEST">12:34:56</div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="wclock.js"></script>
+</body>
+</html>

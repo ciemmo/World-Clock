@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    
+}
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.zone-selector {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.clock {
+    font-size: 6.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.clock > div {
+    display: none;
+}
+
+.clock > div[style*="display: block"] {
+    display: block !important;
+}
